@@ -7,9 +7,9 @@ document.getElementById("btn-submit").addEventListener("click", function(){
     
 
     if(email ==="abujubair75@gmail.com" && password === "khan42"){
-        console.log("Valid User");
+        window.location.href ="../balance/index.html";
     }
     else{
-        console.log("Invalid User");
+       alert("Please valid Email and Password");
     }
 })
